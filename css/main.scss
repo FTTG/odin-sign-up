@@ -94,6 +94,19 @@ form {
                 input {
                     border-radius: 5px;
                     height: 30px;
+
+                    &:focus {
+                        outline: none;
+                        border: 1px solid cyan;
+                    }
+
+                    &:invalid {
+                        border: 1px solid red;
+                    }
+
+                    &:valid {
+                        border: 1px solid lightgreen;
+                    }
                 }
 
                 label {

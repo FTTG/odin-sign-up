@@ -87,6 +87,16 @@ form .input-section .form-row .input input {
   border-radius: 5px;
   height: 30px;
 }
+form .input-section .form-row .input input:focus {
+  outline: none;
+  border: 1px solid cyan;
+}
+form .input-section .form-row .input input:invalid {
+  border: 1px solid red;
+}
+form .input-section .form-row .input input:valid {
+  border: 1px solid lightgreen;
+}
 form .input-section .form-row .input label {
   font-size: 1.6rem;
 }
