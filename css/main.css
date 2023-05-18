@@ -41,6 +41,49 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  flex-wrap: wrap;
+}
+.right-side .intro,
+.right-side .input-section, .right-side .button-container {
+  padding-left: 8%;
+  padding-right: 8%;
+}
+.right-side .intro {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.right-side .intro :nth-child(3) {
+  margin: 15px 0;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+form .input-section {
+  background: #B08968;
+  width: 100%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+form .input-section .form-row {
+  display: flex;
+  gap: 40px;
+}
+form .input-section .form-row .input {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+form .input-section .form-row .input input {
+  border-radius: 5px;
 }
 
 .main-logo {
