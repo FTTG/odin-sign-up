@@ -14,7 +14,7 @@ body {
 }
 
 .left-side {
-  flex: 1;
+  flex: 2;
   background-image: url(../resources/kenny-s-7qRM11Kmnh4-unsplash.jpg);
   background-size: cover;
   height: 100vh;
@@ -26,7 +26,7 @@ body {
   width: 100%;
   justify-content: center;
   align-items: center;
-  background: rgba(204, 213, 174, 0.4588235294);
+  background: rgba(204, 213, 174, 0.5843137255);
   height: 100px;
   margin-top: 30vh;
   font-size: 2rem;
@@ -34,7 +34,7 @@ body {
 }
 
 .right-side {
-  flex: 2;
+  flex: 3;
   background: #9C6644;
   color: #EDE0D4;
   font-size: 1.5rem;
@@ -65,13 +65,14 @@ form {
   gap: 15px;
 }
 form .input-section {
-  background: #B08968;
+  background: #7F5539;
   width: 100%;
   padding-top: 3%;
   padding-bottom: 3%;
   display: flex;
   flex-direction: column;
   gap: 13px;
+  box-shadow: 0 7px 15px -3px black;
 }
 form .input-section .form-row {
   display: flex;
@@ -84,6 +85,17 @@ form .input-section .form-row .input {
 }
 form .input-section .form-row .input input {
   border-radius: 5px;
+  height: 30px;
+}
+form .input-section .form-row .input label {
+  font-size: 1.6rem;
+}
+form button {
+  background-color: #E6CCB2;
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 1.7rem;
+  border: none;
 }
 
 .main-logo {
