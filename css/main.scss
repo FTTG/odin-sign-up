@@ -1,3 +1,5 @@
+@import './colors';
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -8,6 +10,44 @@ html {
     font-size: 62.5%;
 }
 
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-side {
+    flex: 1;
+    background-image: url(../resources/kenny-s-7qRM11Kmnh4-unsplash.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+    & .title {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        background: #CCD5AE75;
+        height: 100px;
+        margin-top: 30vh;
+        font-size: 2rem;
+        color: $main-letters;
+    }
+}
+
+.right-side {
+    flex: 2;
+    background: $background;
+    color: $main-letters;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
 .main-logo {
-    width: 100px;
+    height: 75px;
 }

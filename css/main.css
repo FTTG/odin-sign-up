@@ -8,6 +8,41 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-side {
+  flex: 1;
+  background-image: url(../resources/kenny-s-7qRM11Kmnh4-unsplash.jpg);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.left-side .title {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background: rgba(204, 213, 174, 0.4588235294);
+  height: 100px;
+  margin-top: 30vh;
+  font-size: 2rem;
+  color: #EDE0D4;
+}
+
+.right-side {
+  flex: 2;
+  background: #9C6644;
+  color: #EDE0D4;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .main-logo {
-  width: 100px;
+  height: 75px;
 }/*# sourceMappingURL=main.css.map */
